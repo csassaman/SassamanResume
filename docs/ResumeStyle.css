@@ -18,9 +18,15 @@
 	text-align: center;
 }
 h1 {
-	border-bottom: 2px solid black;
+	color: rgb(77, 77, 77);
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
 	padding: 10px;
-	font-size: 50px;
+	font-size: 35px;
+	border-radius: 12px;
+	width: 800px;
+	margin: auto;
+	margin-bottom: 20px;
 }
 
 h2{ 
@@ -45,6 +51,7 @@ th {
 }
 
 body {
+	color: rgb(66, 66, 66);
 	font-family: Georgia;
 	max-width: 900px;
 	font-size: 15px;
