@@ -11,78 +11,165 @@
 		<link href="ResumeStyle.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-	  <div class="head">
+		<img id="header-image" src="San-Antonio-TX-Skyline.jpg">
+		<!-- <div class="header-image"></div> -->
+	  <div class="header">
 	  <h1 class="description">Charles G. Sassaman</h1>
-	  <div id="contact"> p: 210.685.6638 | e: charles.sassaman@gmail.com | 
-	  <a href="https://www.linkedin.com/in/charles-sassaman-5b4266154/" target="_blank">LinkedIn</a>
-	   | <a href="SassamanResume_Current.pdf" download target="_blank"> Download Resume</a>
+			<div id="contact"> p: 210.685.6638 | e: charles.sassaman@gmail.com | 
+				<a href="https://www.linkedin.com/in/charles-sassaman-5b4266154/" target="_blank">LinkedIn</a> | 
+				<a href="SassamanResume_Current.pdf" download target="_blank"> Download Resume</a>
+			</div>
+			<div id="objective">
+				<p>Motivated and dedicated college student at Texas A&ampM University working towards a B.S. 
+				in Meteorology with a minor in Graphic Information Science and Technology (GIST). Seeking a position 
+				that will utilize my experience and interest in Forecasting, GIS, and Coding.</p>
+			</div>
 	  </div>
-	  <div id="objective">
-		<p>Motivated and dedicated college student at Texas A&ampM University working towards a B.S. 
-		in Meteorology with a minor in Graphic Information Science and Technology (GIST). Seeking a position 
-		that will utilize my experience and interest in Forecasting, GIS, and Coding.</p>
-	  </div>
-	  </div>
+
+		<!----------EDUCATION---------->
 		  <h2 class="education">Education</h2>
-		  <ul> 
-		    <strong>Texas A&ampM University,</strong> College Station, Texas
+		  <ul id="school-parent">
+				<table class="school-table">
+					<tr>
+						<td id="left-block">
+							<strong>University of Texas at Arlington,</strong> Arlington, Texas
+						</td>
+						<td id="right-block">
+							June 2021 - <em>current</em> 
+						</td>
+					</tr>
+				</table>
+				<em>Bachelor of Science in Computer Science</em>
+				<ul>
+					<li>Current Coursework: Introduction to Computers and Programming, Linear Algebra</li>
+				</ul>
+		  </ul><br>
+		  <ul id="school-parent">
+				<table class="school-table">
+					<tr>
+						<td id="left-block">
+							<strong>Texas A&ampM University,</strong> College Station, Texas 
+						</td>
+						<td id="right-block">
+							August 2014 - May 2019 
+						</td>
+					</tr>
+				</table>
+				<em>Bachelor of Science in Meterology</em>
 			  <ul>
-			    <li>Bachelor of Science in Meterology</li>
+			  <!-- <li>Bachelor of Science in Meterology</li> -->
 				<li>Minor in Geographic Information Science &amp Technology</li>
-				<li>Cumulative GPR: 3.60/ Major GPR: 3.78/ Minor GPR: 3.27</li>
+				<li>Cumulative GPR: 3.6/ Major GPR: 3.8/ Minor GPR: 3.3</li>
 				<li>Relevant coursework: Web GIS, GIS Programming, Python for the Geosciences, 
 					Radar Meteorology and Remote Sensing, Numerical Weather Prediction, 
 					Weather Forcasting Lab</li>
 			  </ul>
 		  </ul>
 	  
+		<!---------EXPERIENCE--------->
 	  <h2 class="experience">Experience</h2>
-	    <ul class="GEOGProjects">
-			<strong>CNC Catastrophe & National Claims,</strong> Part-Time (current)
-			<br><em>Independent Contractor</em>
-			<ul>
-				<li>Created an interactive web map of coastal neighborhoods utilizing the Leaflet API and 
-					GEOJSON files to assist insurance agencies in identifying insurance fraud</li>
-				<li>Assisted in quality control of datasets</li>
-			</ul>
-			<br>
-			<strong>Department of Geography,</strong> Texas A&ampM University
-			<br><em>GIS programming Undergraduate Project</em>
-			<ul>
-				<li>Collaborated with graduate students to automate ArcGIS Pro methods
-					for land-use suitability model in Python in an effort to reduce the need roe 
-					a Graphic User Interface (GUI)</li>
-				<li>Combined and debugged code from other team members to ensure a working product</li>
-			</ul>
-			<em>WebGIS Undergraduate Project</em>
-			<ul>
-				<li>Compiled raw data to create an interactive weather map using Python, ArcGIS Pro,
-					and JavaScript</li>
-				<li>Future work involves automating work flow for practival purposes as a possible
-					graduate degree project</li>
-			</ul>
-			<br>
-			<strong>Department of Atmospheric Sciences,</strong> Texas A&ampM University
-			<br><em>Undergraduate Research Assistant, Advisor: Dr. Chris Nowotarski</em>
-			<ul>
-				<li>Created database of severe weather events in the Southeastern Region 
-					of the United States using MATLAB</li>
-				<li>Analyzed the effect of high shear and low CAPE environments on supercell development</li>
-			</ul> 
-			<br>
-			<strong>Student Operational Upper-Air Program (SOUP),</strong> Texas A&ampM University
-			<br><em>Team Member</em>
-			<ul>
-				<li>Launched upper-air balloons carrying radiosondes in support of requests by the 
-					National Weather Service to aid in critical forecast situations</li>
-				<li>
-					Provided forecasts to NASA CSBF Operations for crucial launches throughout the semester</li>
+	    <ul class="experience-list">
+				<table class="school-table">
+					<tr>
+						<td id="left-block">
+							<strong>Weather Modification, LLC.,</strong> Full-Time
+						</td>
+						<td id="right-block">
+							Septemper 2019 - May 2021
+						</td>
+					</tr>
+				</table>
+				<em>Project Meteorologist</em>
+				<ul>
+					<li>
+						Formulated short-term forecasts focusing on various cloud seeding environments including 
+						tropical monsoonal convection and cold season orographic enhancement for ground and airborne 
+						operations
+					</li>
+					<li>
+						Rewrote Python scripts controlling the creation of in-house numerical weather model maps and meteograms
+					</li>
+					<li>
+						Assisted in glaciogenic and hygroscopic cloud seeding missions through both warm and cold season seeding operations
+					</li>
+				</ul><br>
+
+				<table class="school-table">
+					<tr>
+						<td id="left-block">
+							<strong>North Dakota Cloud Modification Project,</strong> Full-Time
+						</td>
+						<td id="right-block">
+							June 2020 - August 2020
+						</td>
+					</tr>
+				</table>
+				<em>Radar Meteorologist</em>
+				<ul>
+					<li>
+						Operated a doppler radar system utilizing IRIS and TITAN software in order to direct aircraft 
+						via two-way radio to suitable cloud formations for rain enhancement and/or hail suppression purposes 
+					</li>
+					<li>
+						Mentored an intern meteorologist to help them be better prepared for a career in the field
+					</li>
+				</ul><br>
+
+				<table class="school-table">
+					<tr>
+						<td id="left-block">
+							<strong>CNC Catastrophe & National Claims,</strong> Part-Time
+						</td>
+						<td id="right-block">
+							February 2019 - March 2019
+						</td>
+					</tr>
+				</table>
+				<em>Independent Contractor</em>
+				<ul>
+					<li>Created an interactive web map of coastal neighborhoods utilizing the Leaflet API and 
+						GEOJSON files to assist insurance agencies in identifying insurance fraud</li>
+					<li>Assisted in quality control of datasets</li>
+				</ul>
+				<br>
+				<strong>Department of Geography,</strong> Texas A&ampM University
+				<br><em>GIS programming Undergraduate Project</em>
+				<ul>
+					<li>Collaborated with graduate students to automate ArcGIS Pro methods
+						for land-use suitability model in Python in an effort to reduce the need roe 
+						a Graphic User Interface (GUI)</li>
+					<li>Combined and debugged code from other team members to ensure a working product</li>
+				</ul>
+				<em>WebGIS Undergraduate Project</em>
+				<ul>
+					<li>Compiled raw data to create an interactive weather map using Python, ArcGIS Pro,
+						and JavaScript</li>
+					<li>Future work involves automating work flow for practival purposes as a possible
+						graduate degree project</li>
+				</ul>
+				<br>
+				<strong>Department of Atmospheric Sciences,</strong> Texas A&ampM University
+				<br><em>Undergraduate Research Assistant, Advisor: Dr. Chris Nowotarski</em>
+				<ul>
+					<li>Created database of severe weather events in the Southeastern Region 
+						of the United States using MATLAB</li>
+					<li>Analyzed the effect of high shear and low CAPE environments on supercell development</li>
+				</ul> 
+				<br>
+				<strong>Student Operational Upper-Air Program (SOUP),</strong> Texas A&ampM University
+				<br><em>Team Member</em>
+				<ul>
+					<li>Launched upper-air balloons carrying radiosondes in support of requests by the 
+						National Weather Service to aid in critical forecast situations</li>
+					<li>Provided forecasts to NASA CSBF Operations for crucial launches throughout the semester</li>
 			</ul>
 		</ul>
+
+		<!---------LEADERSHIP--------->
 		<h2 class="leadership">Leadership</h2>
 		<ul>
 			<strong>Texas A&ampM Campus Community Emergency Response Team</strong>
-			<br><em>Founder and Chapter President</em>
+			<br><em>Founder, Chapter President</em>
 			<ul>
 				<li>Chartered an organization that trains volunteers how to better respond in a 
 					disaster and teaches members basic emergency management practices</li>
@@ -106,7 +193,7 @@
 			</ul>
 		<h2 class="skills">Skills</h2>
 		<dev class="table">
-			<table class="skillsTable">
+			<table class="skills-table">
 				<thead>
 					<tr>
 						<th><h3 class="codelang">Coding Languages</h3></td>
@@ -114,7 +201,6 @@
 						<th><h3 class="pythonModules">Python Modules <br>Familiar With</h3></th>
 				</tr>
 				</thead>
-			
 				<tr>
 					<td>
 						<ul>
