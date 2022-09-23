@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#resume-banner {
+    height: 350px; 
+    width: 100vw; 
+    background-color: rgb(0, 70, 103);
+}
+
+#banner-border {
+    height: 50px; 
+    width: 100vw; 
+    background-color: black;
+}
+
+#resume-banner {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#resume-banner h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#resume-banner .contact-info.contact {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 1em 0 2em;
+}
+#resume-banner .contact-info.contact a,
+#resume-banner .contact-info.contact a:hover {
+    color: white;
+}
